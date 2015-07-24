@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>Survey questions</h1>
+
+    @foreach($questions as $question)
+    <h2>{{question->questions}}</h2>
+    @endforeach
+  </body>
+</html>
